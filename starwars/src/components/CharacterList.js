@@ -8,7 +8,7 @@ const CharacterList = props => {
       {props.characters.map(star => (
       <Character
       characters={star}
-      key={star.height}
+      key={star.name}
       />
       ))}
     </div>
