@@ -2,11 +2,14 @@ import React from "react";
 
 import Character from "./Character";
 
-const CharacterList = () => {
+const CharacterList = props => {
   return (
     <div>
-      <h1>I am Character List!</h1>
-      <Character />
+      {props.characters.map(star => (
+      <Character
+      characters={star}
+      />
+      ))}
     </div>
   );
 }
