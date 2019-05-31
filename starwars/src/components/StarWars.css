@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+h1 {
+  font-family: 'Oswald', sans-seriff;
+  color: #ffffff;
+}
+
+.character {
+  background-color: rgb(221, 144, 28);
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+p {
+  color: #011f4b;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-seriff;
+}
