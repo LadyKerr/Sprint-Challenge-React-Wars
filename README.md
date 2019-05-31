@@ -24,13 +24,31 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [ X ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+ReactJS is a javascript library that aims to solve the complex data is managed in an application. 
+It is a component library built by Facebook that makes creating UI much more enjoyable and simple
+for the developer. ReactJS uses functional components and class components to hold data. A class component
+can be used to hold state (data) which can be passed to other parts of the application as props (properties).
 
-- [ ] Describe state.
 
-- [ ] Describe props.
+- [ X ] What does it mean to _think_ in react?
+
+To think in react means to think in compartments (components). 
+It means to break down a project/app into its smaller components in order to better aggregate the data needed.
+
+
+- [ X ] Describe state.
+
+State needs to be kept on the constructor function and is mutable via the setState() method. It is an object that
+can be referenced with the `this` keyword and can be passed around to the rest of the application. It is essentially
+the house that keeps all the data that is needed.
+
+
+- [ X ] Describe props.
+
+Props is an object with properties on it. An attribute needs to be added to the JSX custom element in order 
+to pass said object property to props. Props are immutable.
 
 ## Project Set Up
 
